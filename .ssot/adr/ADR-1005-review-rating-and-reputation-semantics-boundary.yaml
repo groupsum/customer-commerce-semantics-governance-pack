@@ -1,0 +1,29 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1005"
+number: 1005
+slug: "review-rating-and-reputation-semantics-boundary"
+title: "Review Rating And Reputation Semantics Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Reviews and ratings describe reputation, customer feedback, and evaluated items. They are commonly displayed beside product and offer data but carry separate authorship, target, rating scale, and aggregation semantics."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  Reviews and ratings describe reputation, customer feedback, and evaluated items. They are commonly displayed beside product and offer data but carry separate authorship, target, rating scale, and aggregation semantics.
+  
+  ## Decision
+  
+  Review and rating source curation covers Schema.org Review, Rating, and AggregateRating targets. Review/rating targets must remain separate from product facts, offer terms, order state, invoice state, and commerce action records.
+  
+  ## Authority Sources
+  
+  - Schema.org Review.
+  - Schema.org Rating.
+  - Schema.org AggregateRating.

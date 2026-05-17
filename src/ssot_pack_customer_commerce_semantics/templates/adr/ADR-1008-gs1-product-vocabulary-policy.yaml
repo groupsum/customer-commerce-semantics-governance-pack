@@ -1,0 +1,24 @@
+{
+  "id": "adr:gs1-product-vocabulary-policy",
+  "number": 1008,
+  "slug": "gs1-product-vocabulary-policy",
+  "title": "GS1 Product Vocabulary Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "GS1 Web Vocabulary defines product and trade item semantics used in commerce and supply-chain contexts.",
+    "GS1 product identifiers and vocabulary terms may overlap with product fields represented in Schema.org."
+  ],
+  "decision": [
+    "Use GS1 Web Vocabulary when a downstream system represents GS1-governed product, trade item, organization, or location semantics.",
+    "Keep GS1 vocabulary semantics separate from Schema.org semantics unless explicit mappings are documented."
+  ],
+  "authority_sources": [
+    "GS1 Web Vocabulary"
+  ],
+  "consequences": [
+    "GTINs, trade item fields, organization fields, and location fields must retain GS1 vocabulary context where used.",
+    "Mapped Schema.org fields should retain enough information to trace back to GS1 authority when GS1 is the source."
+  ]
+}

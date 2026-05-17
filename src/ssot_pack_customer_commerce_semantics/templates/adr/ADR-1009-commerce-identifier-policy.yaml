@@ -1,0 +1,28 @@
+{
+  "id": "adr:commerce-identifier-policy",
+  "number": 1009,
+  "slug": "commerce-identifier-policy",
+  "title": "Commerce Identifier Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Commerce systems use many identifiers, including SKU, GTIN, product IDs, offer IDs, order IDs, invoice IDs, seller IDs, brand identifiers, and organization/location identifiers.",
+    "Identifier meaning depends on authority source and business context."
+  ],
+  "decision": [
+    "Classify commerce identifiers by authority source, entity type, lifecycle, uniqueness scope, and mapping behavior.",
+    "Require explicit mapping rules when identifiers from Schema.org, GS1, or internal transaction systems refer to the same commerce object."
+  ],
+  "authority_sources": [
+    "Schema.org Product",
+    "Schema.org Offer",
+    "Schema.org Order",
+    "Schema.org Invoice",
+    "GS1 Web Vocabulary"
+  ],
+  "consequences": [
+    "Identifier conflicts must be resolvable through documented precedence, reconciliation, or rejection rules.",
+    "Downstream schemas should distinguish product identifiers, trade item identifiers, offer identifiers, order identifiers, and invoice identifiers."
+  ]
+}

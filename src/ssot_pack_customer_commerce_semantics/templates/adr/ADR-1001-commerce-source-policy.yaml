@@ -1,0 +1,33 @@
+{
+  "id": "adr:commerce-source-policy",
+  "number": 1001,
+  "slug": "commerce-source-policy",
+  "title": "Commerce Source Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Commerce data can describe products, offers, orders, invoices, reviews, ratings, actions, events, identifiers, organizations, and locations.",
+    "These surfaces may use Schema.org public structured-data semantics, GS1 product vocabulary semantics, or internal transaction semantics."
+  ],
+  "decision": [
+    "Adopt an explicit commerce source policy before treating commerce fields as authoritative.",
+    "Classify each governed commerce field by source family: Schema.org, GS1 Web Vocabulary, or internal downstream transaction authority."
+  ],
+  "authority_sources": [
+    "Schema.org Product",
+    "Schema.org Offer",
+    "Schema.org Order",
+    "Schema.org Invoice",
+    "Schema.org Review",
+    "Schema.org Rating",
+    "Schema.org AggregateRating",
+    "Schema.org Action",
+    "Schema.org Event",
+    "GS1 Web Vocabulary"
+  ],
+  "consequences": [
+    "Commerce records must preserve enough source context to distinguish product facts, offer terms, transactions, reputation data, and action semantics.",
+    "Conflicts between source families require documented mapping, precedence, or rejection rules."
+  ]
+}

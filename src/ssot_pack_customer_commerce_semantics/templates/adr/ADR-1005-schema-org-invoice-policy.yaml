@@ -1,0 +1,24 @@
+{
+  "id": "adr:schema-org-invoice-policy",
+  "number": 1005,
+  "slug": "schema-org-invoice-policy",
+  "title": "Schema.org Invoice Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Schema.org Invoice defines public structured-data semantics for billing and payment request information.",
+    "Invoice semantics are related to orders but require separate billing, payment, and reference context."
+  ],
+  "decision": [
+    "Use Schema.org Invoice when a downstream system represents invoice or billing semantics with Schema.org vocabulary.",
+    "Keep invoice identity, billing terms, payment status, and order references separate from offer and product records."
+  ],
+  "authority_sources": [
+    "Schema.org Invoice"
+  ],
+  "consequences": [
+    "Invoice data must retain billing and payment semantics where used.",
+    "Invoice records must not be treated as product catalog or offer records."
+  ]
+}

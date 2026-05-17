@@ -1,0 +1,36 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1002"
+number: 1002
+slug: "schema-org-commerce-authority-boundary"
+title: "Schema.org Commerce Authority Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Schema.org defines public structured-data vocabulary for commerce surfaces such as Product, Offer, Order, Invoice, Review, Rating, AggregateRating, Action, Event, and Person."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  Schema.org defines public structured-data vocabulary for commerce surfaces such as Product, Offer, Order, Invoice, Review, Rating, AggregateRating, Action, Event, and Person.
+  
+  ## Decision
+  
+  Schema.org commerce source curation covers public structured-data vocabulary targets for product, offer, order, invoice, review, rating, aggregate rating, action, event, and person-like commerce participants. Schema.org targets must remain semantic vocabulary targets and must not be treated as private transaction processing protocols or analytics event contracts.
+  
+  ## Authority Sources
+  
+  - Schema.org Product.
+  - Schema.org Offer.
+  - Schema.org Order.
+  - Schema.org Invoice.
+  - Schema.org Review.
+  - Schema.org Rating.
+  - Schema.org AggregateRating.
+  - Schema.org Action.
+  - Schema.org Event.
+  - Schema.org Person.

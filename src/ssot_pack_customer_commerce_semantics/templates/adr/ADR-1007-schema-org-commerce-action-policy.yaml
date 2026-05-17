@@ -1,0 +1,25 @@
+{
+  "id": "adr:schema-org-commerce-action-policy",
+  "number": 1007,
+  "slug": "schema-org-commerce-action-policy",
+  "title": "Schema.org Commerce Action Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Schema.org Action and Event vocabularies can describe commerce-related actions and event-like commerce semantics.",
+    "Commerce actions may resemble conversion events, but semantic action representation is distinct from analytics attribution governance."
+  ],
+  "decision": [
+    "Use Schema.org Action and Event when a downstream system represents public commerce action or event semantics.",
+    "Keep semantic commerce actions separate from behavioral telemetry and attribution records unless explicit downstream mappings are documented."
+  ],
+  "authority_sources": [
+    "Schema.org Action",
+    "Schema.org Event"
+  ],
+  "consequences": [
+    "Commerce action records must preserve action agent, object, result, participant, timing, and status semantics where used.",
+    "Conversion-oriented actions must not imply attribution rules without a separate attribution authority."
+  ]
+}

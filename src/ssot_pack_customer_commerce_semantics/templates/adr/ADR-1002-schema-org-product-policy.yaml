@@ -1,0 +1,24 @@
+{
+  "id": "adr:schema-org-product-policy",
+  "number": 1002,
+  "slug": "schema-org-product-policy",
+  "title": "Schema.org Product Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Schema.org Product defines public structured-data semantics for products and product-like things.",
+    "Product semantics are often mixed with offers, reviews, ratings, orders, and identifiers from other vocabularies."
+  ],
+  "decision": [
+    "Use Schema.org Product when a downstream system publishes or consumes public product semantics.",
+    "Keep product facts separate from offer terms, order state, invoice state, review/rating evidence, and GS1 trade item semantics unless explicit mappings are documented."
+  ],
+  "authority_sources": [
+    "Schema.org Product"
+  ],
+  "consequences": [
+    "Product representations must preserve product identity, name, description, image, brand, category, and related product properties where used.",
+    "Product fields must not imply offer availability or transaction state unless those authorities also apply."
+  ]
+}

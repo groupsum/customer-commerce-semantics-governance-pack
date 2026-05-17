@@ -1,0 +1,27 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1003"
+number: 1003
+slug: "gs1-product-and-trade-item-authority-boundary"
+title: "GS1 Product And Trade Item Authority Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "GS1 Web Vocabulary provides semantic vocabulary for product, organization, location, offer, and trade item data used in commerce and supply-chain contexts."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  GS1 Web Vocabulary provides semantic vocabulary for product, organization, location, offer, and trade item data used in commerce and supply-chain contexts.
+  
+  ## Decision
+  
+  GS1 source curation covers product identifiers, trade item semantics, organization/location semantics, and related product vocabulary fields governed by GS1 Web Vocabulary. GS1 targets must remain separate from Schema.org public structured-data targets unless an explicit mapping target is curated.
+  
+  ## Authority Sources
+  
+  - GS1 Web Vocabulary.

@@ -1,0 +1,31 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1004"
+number: 1004
+slug: "commerce-transaction-semantics-boundary"
+title: "Commerce Transaction Semantics Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Commerce data often mixes product catalog facts, commercial offers, order state, invoice state, purchase actions, and conversion actions. These surfaces are related but have different authority and evidence requirements."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  Commerce data often mixes product catalog facts, commercial offers, order state, invoice state, purchase actions, and conversion actions. These surfaces are related but have different authority and evidence requirements.
+  
+  ## Decision
+  
+  Transaction semantics source curation separates product/catalog targets from offer targets, order targets, invoice targets, and commerce action targets. Order, invoice, and action targets must not be collapsed into product or offer semantics without an explicit mapping.
+  
+  ## Authority Sources
+  
+  - Schema.org Offer.
+  - Schema.org Order.
+  - Schema.org Invoice.
+  - Schema.org Action.
+  - Schema.org Event.

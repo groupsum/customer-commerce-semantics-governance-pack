@@ -1,0 +1,39 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1001"
+number: 1001
+slug: "customer-commerce-semantics-domain-boundary"
+title: "Customer Commerce Semantics Domain Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "This repository curates authority sources for customer commerce semantics, product representation, offers, orders, invoices, reviews, ratings, commerce actions, commerce events, and product/trade item vocabulary semantics."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  This repository curates authority sources for customer commerce semantics, product representation, offers, orders, invoices, reviews, ratings, commerce actions, commerce events, and product/trade item vocabulary semantics.
+  
+  Commerce semantics span several related but distinct authority areas. Schema.org defines public structured-data vocabulary for products, offers, orders, invoices, reviews, ratings, actions, events, and persons. GS1 Web Vocabulary defines product and trade item semantics used in commerce and supply-chain contexts.
+  
+  ## Decision
+  
+  The pack-local domain boundary is customer commerce and product semantics source curation. It includes authoritative targets for Schema.org commerce types and GS1 product/trade item vocabulary targets.
+  
+  The boundary excludes behavioral analytics events, marketing attribution records, consent records, identity provisioning records, customer data platform profile records, advertising supply-chain transparency, and jurisdiction-specific privacy records except where a listed commerce authority directly governs a commerce field.
+  
+  ## Authority Sources
+  
+  - Schema.org Person.
+  - Schema.org Product.
+  - Schema.org Offer.
+  - Schema.org Order.
+  - Schema.org Invoice.
+  - Schema.org Review.
+  - Schema.org AggregateRating.
+  - Schema.org Action and Event.
+  - GS1 Web Vocabulary.

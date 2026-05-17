@@ -31,8 +31,16 @@ Customer Commerce And Product Semantics
 
 ## Included ADRs
 
-- `adr:commerce-semantics-boundary` - Commerce Semantics Boundary
-- `adr:schema-org-commerce-authority` - Schema.org Commerce Authority
+- `adr:commerce-source-policy` - Commerce Source Policy
+- `adr:schema-org-product-policy` - Schema.org Product Policy
+- `adr:schema-org-offer-policy` - Schema.org Offer Policy
+- `adr:schema-org-order-policy` - Schema.org Order Policy
+- `adr:schema-org-invoice-policy` - Schema.org Invoice Policy
+- `adr:schema-org-review-rating-policy` - Schema.org Review Rating Policy
+- `adr:schema-org-commerce-action-policy` - Schema.org Commerce Action Policy
+- `adr:gs1-product-vocabulary-policy` - GS1 Product Vocabulary Policy
+- `adr:commerce-identifier-policy` - Commerce Identifier Policy
+- `adr:commerce-conversion-boundary-policy` - Commerce Conversion Boundary Policy
 
 ## Included SPECs
 

@@ -1,0 +1,24 @@
+{
+  "id": "adr:schema-org-offer-policy",
+  "number": 1003,
+  "slug": "schema-org-offer-policy",
+  "title": "Schema.org Offer Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Schema.org Offer defines public structured-data semantics for commercial offers, including price, availability, seller, and item offered.",
+    "Offer data is related to product data but has its own commercial terms and validity expectations."
+  ],
+  "decision": [
+    "Use Schema.org Offer when a downstream system publishes or consumes public offer semantics.",
+    "Separate offer terms from product facts and from finalized order or invoice records."
+  ],
+  "authority_sources": [
+    "Schema.org Offer"
+  ],
+  "consequences": [
+    "Offer records must preserve price, currency, availability, seller, validity, and item-offered semantics where used.",
+    "Offer data must not be treated as completed transaction evidence without an order or invoice authority."
+  ]
+}

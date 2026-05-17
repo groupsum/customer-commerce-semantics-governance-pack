@@ -1,0 +1,27 @@
+{
+  "id": "adr:commerce-conversion-boundary-policy",
+  "number": 1010,
+  "slug": "commerce-conversion-boundary-policy",
+  "title": "Commerce Conversion Boundary Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Commerce actions such as buy, order, reserve, review, or quote actions can be treated as conversions by downstream systems.",
+    "A commerce action describes commerce semantics; attribution and analytics systems decide how that action is measured."
+  ],
+  "decision": [
+    "Represent commerce conversion candidates as commerce action or transaction semantics first.",
+    "Do not embed analytics attribution rules, campaign measurement rules, or behavioral telemetry semantics in commerce source authority decisions."
+  ],
+  "authority_sources": [
+    "Schema.org Action",
+    "Schema.org Event",
+    "Schema.org Order",
+    "Schema.org Invoice"
+  ],
+  "consequences": [
+    "Downstream systems can map commerce actions to conversion measurement separately.",
+    "Commerce governance remains portable across systems that do not implement analytics attribution."
+  ]
+}

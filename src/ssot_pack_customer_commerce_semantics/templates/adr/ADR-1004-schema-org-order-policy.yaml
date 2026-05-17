@@ -1,0 +1,24 @@
+{
+  "id": "adr:schema-org-order-policy",
+  "number": 1004,
+  "slug": "schema-org-order-policy",
+  "title": "Schema.org Order Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Schema.org Order defines public structured-data semantics for placed orders and ordered items.",
+    "Order semantics should not be collapsed into product or offer semantics because an order represents transaction state."
+  ],
+  "decision": [
+    "Use Schema.org Order when a downstream system represents order semantics with Schema.org vocabulary.",
+    "Keep order identity, ordered items, seller/customer roles, and order status separate from product facts and offer terms."
+  ],
+  "authority_sources": [
+    "Schema.org Order"
+  ],
+  "consequences": [
+    "Order data must preserve order identity, participants, item references, and status where used.",
+    "Order records must not be used as marketing attribution records without separate attribution authority."
+  ]
+}

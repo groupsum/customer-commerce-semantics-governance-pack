@@ -1,0 +1,26 @@
+{
+  "id": "adr:schema-org-review-rating-policy",
+  "number": 1006,
+  "slug": "schema-org-review-rating-policy",
+  "title": "Schema.org Review Rating Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Schema.org Review, Rating, and AggregateRating define public structured-data semantics for reviews, rating values, rating scales, and aggregated reputation data.",
+    "Review and rating data is often displayed with products and offers but has distinct authorship and evidence semantics."
+  ],
+  "decision": [
+    "Use Schema.org Review, Rating, and AggregateRating when a downstream system represents review or reputation semantics.",
+    "Separate review and rating evidence from product facts, offer terms, order state, and invoice state."
+  ],
+  "authority_sources": [
+    "Schema.org Review",
+    "Schema.org Rating",
+    "Schema.org AggregateRating"
+  ],
+  "consequences": [
+    "Review/rating records must retain author, item reviewed, rating value, scale, count, and aggregation semantics where used.",
+    "Aggregate reputation data must not be represented as a product fact without its rating authority context."
+  ]
+}
