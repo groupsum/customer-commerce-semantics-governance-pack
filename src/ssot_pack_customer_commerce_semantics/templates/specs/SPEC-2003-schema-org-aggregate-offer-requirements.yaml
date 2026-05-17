@@ -1,0 +1,21 @@
+{
+  "id": "spc:schema-org-aggregate-offer-requirements",
+  "number": 2003,
+  "slug": "schema-org-aggregate-offer-requirements",
+  "title": "Schema.org Aggregate Offer Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:schema-org-offer-policy"
+  ],
+  "authority_sources": [
+    "Schema.org Offer"
+  ],
+  "requirements": [
+    "Represent aggregate offers separately from individual offers.",
+    "Preserve low price, high price, offer count, price currency, and item offered semantics where used.",
+    "Do not treat aggregate offer values as a single seller offer unless a downstream mapping explicitly does so."
+  ]
+}

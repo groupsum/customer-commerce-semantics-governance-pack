@@ -1,0 +1,40 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2001"
+number: 2001
+slug: "customer-commerce-semantics-target-curation-requirements"
+title: "Customer Commerce Semantics Target Curation Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for curating customer commerce and product semantic targets from authoritative source families."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for curating customer commerce and product semantic targets from authoritative source families.
+  
+  ## Requirements
+  
+  - The curated target set MUST distinguish product targets, offer targets, order targets, invoice targets, review targets, rating targets, action/event targets, commerce identifier targets, and GS1 product/trade item targets.
+  - The curated target set MUST NOT treat behavioral analytics events, marketing attribution records, consent records, identity profile records, advertising supply-chain records, or privacy records as commerce semantic targets unless a listed commerce authority directly governs a commerce field.
+  - Each target SHOULD identify whether it governs a product fact, offer term, transaction state, billing field, reputation field, action/event semantic, identifier, organization/location field, or trade item field.
+  - Each target SHOULD preserve source family and authority source names so downstream adopters can map implementation choices to the correct authority.
+  
+  ## Authority Sources
+  
+  - Schema.org Product.
+  - Schema.org Offer.
+  - Schema.org Order.
+  - Schema.org Invoice.
+  - Schema.org Review.
+  - Schema.org Rating.
+  - Schema.org AggregateRating.
+  - Schema.org Action and Event.
+  - Schema.org Person.
+  - GS1 Web Vocabulary.
+spec_kind: "normative"

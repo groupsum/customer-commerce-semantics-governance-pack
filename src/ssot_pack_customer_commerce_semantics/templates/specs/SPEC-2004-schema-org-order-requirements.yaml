@@ -1,0 +1,21 @@
+{
+  "id": "spc:schema-org-order-requirements",
+  "number": 2004,
+  "slug": "schema-org-order-requirements",
+  "title": "Schema.org Order Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:schema-org-order-policy"
+  ],
+  "authority_sources": [
+    "Schema.org Order"
+  ],
+  "requirements": [
+    "Represent orders separately from product catalog and offer records.",
+    "Preserve order identifier, ordered items, customer, seller, order date, order status, and accepted offer references where used.",
+    "Do not treat orders as campaign attribution records without a separate attribution authority."
+  ]
+}

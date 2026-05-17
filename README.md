@@ -44,10 +44,22 @@ Customer Commerce And Product Semantics
 
 ## Included SPECs
 
-- `spc:schema-org-product-offer-contract` - Schema.org Product Offer Contract
-- `spc:schema-org-order-invoice-contract` - Schema.org Order Invoice Contract
-- `spc:schema-org-review-rating-contract` - Schema.org Review Rating Contract
-- `spc:commerce-action-contract` - Commerce Action Contract
+- `spc:schema-org-product-requirements` - Schema.org Product Requirements
+- `spc:schema-org-offer-requirements` - Schema.org Offer Requirements
+- `spc:schema-org-aggregate-offer-requirements` - Schema.org Aggregate Offer Requirements
+- `spc:schema-org-order-requirements` - Schema.org Order Requirements
+- `spc:schema-org-invoice-requirements` - Schema.org Invoice Requirements
+- `spc:schema-org-review-requirements` - Schema.org Review Requirements
+- `spc:schema-org-rating-requirements` - Schema.org Rating Requirements
+- `spc:schema-org-aggregate-rating-requirements` - Schema.org Aggregate Rating Requirements
+- `spc:schema-org-commerce-action-requirements` - Schema.org Commerce Action Requirements
+- `spc:schema-org-commerce-event-requirements` - Schema.org Commerce Event Requirements
+- `spc:gs1-product-identifier-requirements` - GS1 Product Identifier Requirements
+- `spc:gs1-trade-item-requirements` - GS1 Trade Item Requirements
+- `spc:gs1-organization-location-requirements` - GS1 Organization Location Requirements
+- `spc:commerce-identifier-classification-requirements` - Commerce Identifier Classification Requirements
+- `spc:commerce-transaction-state-requirements` - Commerce Transaction State Requirements
+- `spc:commerce-conversion-action-requirements` - Commerce Conversion Action Requirements
 
 ## Install With uv
 

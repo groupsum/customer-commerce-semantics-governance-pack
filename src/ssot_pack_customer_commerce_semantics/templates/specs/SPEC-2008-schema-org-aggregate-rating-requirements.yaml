@@ -1,0 +1,21 @@
+{
+  "id": "spc:schema-org-aggregate-rating-requirements",
+  "number": 2008,
+  "slug": "schema-org-aggregate-rating-requirements",
+  "title": "Schema.org Aggregate Rating Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:schema-org-review-rating-policy"
+  ],
+  "authority_sources": [
+    "Schema.org AggregateRating"
+  ],
+  "requirements": [
+    "Represent aggregate ratings separately from individual reviews and ratings.",
+    "Preserve rating value, rating count, review count, best rating, worst rating, and item context where used.",
+    "Do not treat aggregate ratings as product facts without retaining rating authority context."
+  ]
+}

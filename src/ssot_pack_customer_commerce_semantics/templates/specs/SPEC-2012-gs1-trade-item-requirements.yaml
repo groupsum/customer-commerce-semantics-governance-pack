@@ -1,0 +1,21 @@
+{
+  "id": "spc:gs1-trade-item-requirements",
+  "number": 2012,
+  "slug": "gs1-trade-item-requirements",
+  "title": "GS1 Trade Item Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:gs1-product-vocabulary-policy"
+  ],
+  "authority_sources": [
+    "GS1 Web Vocabulary"
+  ],
+  "requirements": [
+    "Represent trade item semantics separately from generic product display fields.",
+    "Preserve trade item identity, packaging, measurement, and related product vocabulary semantics where used.",
+    "Document mappings from trade item data to product, offer, and catalog representations."
+  ]
+}

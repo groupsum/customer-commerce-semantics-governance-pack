@@ -1,0 +1,21 @@
+{
+  "id": "spc:schema-org-commerce-event-requirements",
+  "number": 2010,
+  "slug": "schema-org-commerce-event-requirements",
+  "title": "Schema.org Commerce Event Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:schema-org-commerce-action-policy"
+  ],
+  "authority_sources": [
+    "Schema.org Event"
+  ],
+  "requirements": [
+    "Represent event-like commerce semantics separately from behavioral telemetry events.",
+    "Preserve event name, location, start date, end date, offers, participants, and organizer context where used.",
+    "Document mappings when event-like commerce records are also measured by analytics systems."
+  ]
+}

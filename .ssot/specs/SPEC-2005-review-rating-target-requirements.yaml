@@ -1,0 +1,33 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2005"
+number: 2005
+slug: "review-rating-target-requirements"
+title: "Review Rating Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for curating review, rating, aggregate rating, and reputation semantic targets."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for curating review, rating, aggregate rating, and reputation semantic targets.
+  
+  ## Requirements
+  
+  - Review targets MUST preserve reviewed item, review body or content reference, author context, date context, and rating relationship where applicable.
+  - Rating targets MUST preserve rating value, rating scale, best rating, worst rating, and rated item context where applicable.
+  - AggregateRating targets MUST preserve aggregate value, rating count, review count, and item context where applicable.
+  - Review and rating targets MUST NOT be curated as product facts, offer terms, order state, or invoice state.
+  
+  ## Authority Sources
+  
+  - Schema.org Review.
+  - Schema.org Rating.
+  - Schema.org AggregateRating.
+spec_kind: "normative"

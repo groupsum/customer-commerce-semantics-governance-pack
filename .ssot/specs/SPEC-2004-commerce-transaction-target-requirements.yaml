@@ -1,0 +1,36 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2004"
+number: 2004
+slug: "commerce-transaction-target-requirements"
+title: "Commerce Transaction Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for curating commerce transaction semantic targets."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for curating commerce transaction semantic targets.
+  
+  ## Requirements
+  
+  - Transaction targets MUST distinguish offer state, order state, invoice state, action state, and event-like commerce semantics.
+  - Order targets MUST NOT be curated as product facts or offer terms.
+  - Invoice targets MUST NOT be curated as product facts, offer terms, or order state without explicit reference semantics.
+  - Commerce action targets SHOULD identify whether an action is a buy, order, reserve, quote, review, payment, cancellation, return, or other commerce-relevant action where the authority source supports that semantics.
+  - Conversion-oriented commerce actions MUST remain distinct from analytics attribution and campaign measurement rules.
+  
+  ## Authority Sources
+  
+  - Schema.org Offer.
+  - Schema.org Order.
+  - Schema.org Invoice.
+  - Schema.org Action.
+  - Schema.org Event.
+spec_kind: "normative"

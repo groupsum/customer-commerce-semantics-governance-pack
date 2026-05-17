@@ -32,19 +32,25 @@ class GovernancePackManifestTests(unittest.TestCase):
         manifest = load_pack_manifest()
         self.assertEqual("ssot-pack-customer-commerce-semantics", manifest["metadata"]["origin"]["package_name"])
         self.assertEqual(10, len(manifest["documents"]["adr"]))
-        self.assertEqual(4, len(manifest["documents"]["spec"]))
+        self.assertEqual(16, len(manifest["documents"]["spec"]))
 
     def test_packaged_documents_are_readable(self) -> None:
         adr_manifest = load_document_manifest("adr")
         spec_manifest = load_document_manifest("spec")
         self.assertEqual("adr:commerce-source-policy", adr_manifest[0]["id"])
-        self.assertEqual("spc:schema-org-product-offer-contract", spec_manifest[0]["id"])
+        self.assertEqual("spc:schema-org-product-requirements", spec_manifest[0]["id"])
         self.assertIn("Commerce Source Policy", read_packaged_document_text("adr", adr_manifest[0]["filename"]))
-        self.assertIn("Customer Commerce And Product Semantics", read_packaged_document_text("spec", spec_manifest[0]["filename"]))
+        self.assertIn("Schema.org Product Requirements", read_packaged_document_text("spec", spec_manifest[0]["filename"]))
 
     def test_packaged_adr_documents_are_downstream_portable(self) -> None:
         for row in load_document_manifest("adr"):
             text = read_packaged_document_text("adr", row["filename"])
+            self.assertNotIn("pack:", text)
+            self.assertNotIn("This pack", text)
+
+    def test_packaged_spec_documents_are_downstream_portable(self) -> None:
+        for row in load_document_manifest("spec"):
+            text = read_packaged_document_text("spec", row["filename"])
             self.assertNotIn("pack:", text)
             self.assertNotIn("This pack", text)
 

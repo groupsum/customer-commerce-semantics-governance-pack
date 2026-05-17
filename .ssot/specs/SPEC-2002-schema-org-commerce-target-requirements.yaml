@@ -1,0 +1,41 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2002"
+number: 2002
+slug: "schema-org-commerce-target-requirements"
+title: "Schema.org Commerce Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for curating Schema.org commerce semantic targets."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for curating Schema.org commerce semantic targets.
+  
+  ## Requirements
+  
+  - Schema.org commerce targets MUST be sourced from Schema.org vocabulary terms.
+  - Product targets MUST remain distinct from Offer, Order, Invoice, Review, Rating, AggregateRating, Action, and Event targets.
+  - Offer targets MUST preserve commercial terms separately from product catalog facts and finalized transaction records.
+  - Order and Invoice targets MUST preserve transaction and billing semantics separately from product and offer semantics.
+  - Review, Rating, and AggregateRating targets MUST preserve reputation semantics separately from product facts and offer terms.
+  - Action and Event targets MUST remain semantic commerce targets and MUST NOT imply analytics attribution rules.
+  
+  ## Authority Sources
+  
+  - Schema.org Product.
+  - Schema.org Offer.
+  - Schema.org Order.
+  - Schema.org Invoice.
+  - Schema.org Review.
+  - Schema.org Rating.
+  - Schema.org AggregateRating.
+  - Schema.org Action.
+  - Schema.org Event.
+spec_kind: "normative"

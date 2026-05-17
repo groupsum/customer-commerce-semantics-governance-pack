@@ -1,0 +1,21 @@
+{
+  "id": "spc:schema-org-invoice-requirements",
+  "number": 2005,
+  "slug": "schema-org-invoice-requirements",
+  "title": "Schema.org Invoice Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:schema-org-invoice-policy"
+  ],
+  "authority_sources": [
+    "Schema.org Invoice"
+  ],
+  "requirements": [
+    "Represent invoices separately from orders, offers, and products.",
+    "Preserve invoice identifier, billing period, payment due date, payment status, total payment due, and referenced order semantics where used.",
+    "Document behavior when invoice state conflicts with order or payment state."
+  ]
+}

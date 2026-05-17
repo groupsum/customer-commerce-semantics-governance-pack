@@ -1,0 +1,25 @@
+{
+  "id": "spc:commerce-conversion-action-requirements",
+  "number": 2016,
+  "slug": "commerce-conversion-action-requirements",
+  "title": "Commerce Conversion Action Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:commerce-conversion-boundary-policy",
+    "adr:schema-org-commerce-action-policy"
+  ],
+  "authority_sources": [
+    "Schema.org Action",
+    "Schema.org Event",
+    "Schema.org Order",
+    "Schema.org Invoice"
+  ],
+  "requirements": [
+    "Represent conversion-candidate commerce actions as commerce semantics before mapping them into measurement systems.",
+    "Preserve action, order, invoice, or event context needed to decide whether a commerce record is a downstream conversion.",
+    "Do not embed campaign attribution, channel attribution, or behavioral analytics rules in commerce conversion action records."
+  ]
+}

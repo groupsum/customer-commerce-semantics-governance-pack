@@ -1,0 +1,22 @@
+{
+  "id": "spc:gs1-product-identifier-requirements",
+  "number": 2011,
+  "slug": "gs1-product-identifier-requirements",
+  "title": "GS1 Product Identifier Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:gs1-product-vocabulary-policy",
+    "adr:commerce-identifier-policy"
+  ],
+  "authority_sources": [
+    "GS1 Web Vocabulary"
+  ],
+  "requirements": [
+    "Represent GS1-governed product identifiers separately from internal product identifiers.",
+    "Preserve GTIN and related product identifier semantics where used.",
+    "Document mappings between GS1 identifiers, Schema.org identifiers, SKUs, and internal product IDs."
+  ]
+}

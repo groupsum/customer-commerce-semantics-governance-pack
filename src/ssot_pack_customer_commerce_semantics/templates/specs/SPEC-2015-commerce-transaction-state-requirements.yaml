@@ -1,0 +1,23 @@
+{
+  "id": "spc:commerce-transaction-state-requirements",
+  "number": 2015,
+  "slug": "commerce-transaction-state-requirements",
+  "title": "Commerce Transaction State Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:schema-org-order-policy",
+    "adr:schema-org-invoice-policy"
+  ],
+  "authority_sources": [
+    "Schema.org Order",
+    "Schema.org Invoice"
+  ],
+  "requirements": [
+    "Distinguish order state, invoice state, payment state, cancellation state, return state, and fulfillment state where those states are represented.",
+    "Preserve references between order, invoice, payment, and item records.",
+    "Document behavior when transaction state conflicts across source systems."
+  ]
+}

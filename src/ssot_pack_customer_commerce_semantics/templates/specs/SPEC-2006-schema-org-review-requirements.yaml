@@ -1,0 +1,21 @@
+{
+  "id": "spc:schema-org-review-requirements",
+  "number": 2006,
+  "slug": "schema-org-review-requirements",
+  "title": "Schema.org Review Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:schema-org-review-rating-policy"
+  ],
+  "authority_sources": [
+    "Schema.org Review"
+  ],
+  "requirements": [
+    "Represent reviews separately from product facts, offer terms, orders, and invoices.",
+    "Preserve author, item reviewed, review body or content reference, date published, and review rating relationship where used.",
+    "Document moderation, deletion, or source-freshness behavior when reviews are used for downstream evidence."
+  ]
+}

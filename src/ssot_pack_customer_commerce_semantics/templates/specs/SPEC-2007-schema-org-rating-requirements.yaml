@@ -1,0 +1,21 @@
+{
+  "id": "spc:schema-org-rating-requirements",
+  "number": 2007,
+  "slug": "schema-org-rating-requirements",
+  "title": "Schema.org Rating Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:schema-org-review-rating-policy"
+  ],
+  "authority_sources": [
+    "Schema.org Rating"
+  ],
+  "requirements": [
+    "Represent ratings with rating value, best rating, worst rating, and rated item context where used.",
+    "Preserve the distinction between individual ratings and aggregate ratings.",
+    "Validate rating scale handling before comparing ratings from different sources."
+  ]
+}

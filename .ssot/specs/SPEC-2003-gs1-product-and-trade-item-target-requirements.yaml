@@ -1,0 +1,31 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2003"
+number: 2003
+slug: "gs1-product-and-trade-item-target-requirements"
+title: "GS1 Product And Trade Item Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for curating GS1 product and trade item semantic targets."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for curating GS1 product and trade item semantic targets.
+  
+  ## Requirements
+  
+  - GS1 targets MUST be sourced from GS1 Web Vocabulary.
+  - GS1 targets MUST preserve product identifier, trade item, organization, location, and related product vocabulary semantics where applicable.
+  - GS1 product identifier targets SHOULD distinguish GTIN and other identifier forms from internal product IDs and Schema.org identifiers.
+  - GS1 targets MUST remain separate from Schema.org targets unless an explicit mapping target is curated.
+  
+  ## Authority Sources
+  
+  - GS1 Web Vocabulary.
+spec_kind: "normative"
