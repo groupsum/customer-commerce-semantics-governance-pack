@@ -51,35 +51,35 @@ Customer Commerce And Product Semantics
 
 ## Included ADRs
 
-- `adr:commerce-source-policy` - Commerce Source Policy
-- `adr:schema-org-product-policy` - Schema.org Product Policy
-- `adr:schema-org-offer-policy` - Schema.org Offer Policy
-- `adr:schema-org-order-policy` - Schema.org Order Policy
-- `adr:schema-org-invoice-policy` - Schema.org Invoice Policy
-- `adr:schema-org-review-rating-policy` - Schema.org Review Rating Policy
-- `adr:schema-org-commerce-action-policy` - Schema.org Commerce Action Policy
-- `adr:gs1-product-vocabulary-policy` - GS1 Product Vocabulary Policy
-- `adr:commerce-identifier-policy` - Commerce Identifier Policy
-- `adr:commerce-conversion-boundary-policy` - Commerce Conversion Boundary Policy
+- [`adr:commerce-source-policy`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/adr/ADR-1001-commerce-source-policy.yaml) - Commerce Source Policy
+- [`adr:schema-org-product-policy`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/adr/ADR-1002-schema-org-product-policy.yaml) - Schema.org Product Policy
+- [`adr:schema-org-offer-policy`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/adr/ADR-1003-schema-org-offer-policy.yaml) - Schema.org Offer Policy
+- [`adr:schema-org-order-policy`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/adr/ADR-1004-schema-org-order-policy.yaml) - Schema.org Order Policy
+- [`adr:schema-org-invoice-policy`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/adr/ADR-1005-schema-org-invoice-policy.yaml) - Schema.org Invoice Policy
+- [`adr:schema-org-review-rating-policy`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/adr/ADR-1006-schema-org-review-rating-policy.yaml) - Schema.org Review Rating Policy
+- [`adr:schema-org-commerce-action-policy`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/adr/ADR-1007-schema-org-commerce-action-policy.yaml) - Schema.org Commerce Action Policy
+- [`adr:gs1-product-vocabulary-policy`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/adr/ADR-1008-gs1-product-vocabulary-policy.yaml) - GS1 Product Vocabulary Policy
+- [`adr:commerce-identifier-policy`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/adr/ADR-1009-commerce-identifier-policy.yaml) - Commerce Identifier Policy
+- [`adr:commerce-conversion-boundary-policy`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/adr/ADR-1010-commerce-conversion-boundary-policy.yaml) - Commerce Conversion Boundary Policy
 
 ## Included SPECs
 
-- `spc:schema-org-product-requirements` - Schema.org Product Requirements
-- `spc:schema-org-offer-requirements` - Schema.org Offer Requirements
-- `spc:schema-org-aggregate-offer-requirements` - Schema.org Aggregate Offer Requirements
-- `spc:schema-org-order-requirements` - Schema.org Order Requirements
-- `spc:schema-org-invoice-requirements` - Schema.org Invoice Requirements
-- `spc:schema-org-review-requirements` - Schema.org Review Requirements
-- `spc:schema-org-rating-requirements` - Schema.org Rating Requirements
-- `spc:schema-org-aggregate-rating-requirements` - Schema.org Aggregate Rating Requirements
-- `spc:schema-org-commerce-action-requirements` - Schema.org Commerce Action Requirements
-- `spc:schema-org-commerce-event-requirements` - Schema.org Commerce Event Requirements
-- `spc:gs1-product-identifier-requirements` - GS1 Product Identifier Requirements
-- `spc:gs1-trade-item-requirements` - GS1 Trade Item Requirements
-- `spc:gs1-organization-location-requirements` - GS1 Organization Location Requirements
-- `spc:commerce-identifier-classification-requirements` - Commerce Identifier Classification Requirements
-- `spc:commerce-transaction-state-requirements` - Commerce Transaction State Requirements
-- `spc:commerce-conversion-action-requirements` - Commerce Conversion Action Requirements
+- [`spc:schema-org-product-requirements`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/specs/SPEC-2001-schema-org-product-requirements.yaml) - Schema.org Product Requirements
+- [`spc:schema-org-offer-requirements`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/specs/SPEC-2002-schema-org-offer-requirements.yaml) - Schema.org Offer Requirements
+- [`spc:schema-org-aggregate-offer-requirements`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/specs/SPEC-2003-schema-org-aggregate-offer-requirements.yaml) - Schema.org Aggregate Offer Requirements
+- [`spc:schema-org-order-requirements`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/specs/SPEC-2004-schema-org-order-requirements.yaml) - Schema.org Order Requirements
+- [`spc:schema-org-invoice-requirements`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/specs/SPEC-2005-schema-org-invoice-requirements.yaml) - Schema.org Invoice Requirements
+- [`spc:schema-org-review-requirements`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/specs/SPEC-2006-schema-org-review-requirements.yaml) - Schema.org Review Requirements
+- [`spc:schema-org-rating-requirements`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/specs/SPEC-2007-schema-org-rating-requirements.yaml) - Schema.org Rating Requirements
+- [`spc:schema-org-aggregate-rating-requirements`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/specs/SPEC-2008-schema-org-aggregate-rating-requirements.yaml) - Schema.org Aggregate Rating Requirements
+- [`spc:schema-org-commerce-action-requirements`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/specs/SPEC-2009-schema-org-commerce-action-requirements.yaml) - Schema.org Commerce Action Requirements
+- [`spc:schema-org-commerce-event-requirements`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/specs/SPEC-2010-schema-org-commerce-event-requirements.yaml) - Schema.org Commerce Event Requirements
+- [`spc:gs1-product-identifier-requirements`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/specs/SPEC-2011-gs1-product-identifier-requirements.yaml) - GS1 Product Identifier Requirements
+- [`spc:gs1-trade-item-requirements`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/specs/SPEC-2012-gs1-trade-item-requirements.yaml) - GS1 Trade Item Requirements
+- [`spc:gs1-organization-location-requirements`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/specs/SPEC-2013-gs1-organization-location-requirements.yaml) - GS1 Organization Location Requirements
+- [`spc:commerce-identifier-classification-requirements`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/specs/SPEC-2014-commerce-identifier-classification-requirements.yaml) - Commerce Identifier Classification Requirements
+- [`spc:commerce-transaction-state-requirements`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/specs/SPEC-2015-commerce-transaction-state-requirements.yaml) - Commerce Transaction State Requirements
+- [`spc:commerce-conversion-action-requirements`](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/src/ssot_pack_customer_commerce_semantics/templates/specs/SPEC-2016-commerce-conversion-action-requirements.yaml) - Commerce Conversion Action Requirements
 
 ## Install With uv
 
