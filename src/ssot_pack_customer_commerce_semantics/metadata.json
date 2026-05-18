@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "ssot_package_name": "ssot-pack-customer-commerce-semantics",
+  "ssot_package_name": "customer-commerce-semantics-governance-pack",
   "origin": {
     "id": "pack:customer-commerce-semantics",
-    "package_name": "ssot-pack-customer-commerce-semantics",
+    "package_name": "customer-commerce-semantics-governance-pack",
     "import_name": "ssot_pack_customer_commerce_semantics",
     "kind": "governance-pack",
     "title": "Customer Commerce And Product Semantics",
@@ -19,7 +19,7 @@
   "trust": {
     "trusted_by_default": false,
     "origin": "extension-pack",
-    "reservation_owner": "extension-pack:ssot-pack-customer-commerce-semantics"
+    "reservation_owner": "extension-pack:customer-commerce-semantics-governance-pack"
   },
   "documents": {
     "adr": {

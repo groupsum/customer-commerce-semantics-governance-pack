@@ -1,4 +1,4 @@
-# ssot-pack-customer-commerce-semantics
+# customer-commerce-semantics-governance-pack
 
 Installable SSOT governance pack for customer commerce semantics, products, offers, orders, invoices, reviews, ratings, and conversion actions.
 
@@ -8,10 +8,10 @@ This repository is an installable SSOT Registry governance pack. It packages imm
 
 - Pack ID: `pack:customer-commerce-semantics`
 - Priority: `P2.2`
-- PyPI package: `ssot-pack-customer-commerce-semantics`
+- PyPI package: `customer-commerce-semantics-governance-pack`
 - Import package: `ssot_pack_customer_commerce_semantics`
 - GitHub repository: `groupsum/customer-commerce-semantics-governance-pack`
-- Reservation owner: `extension-pack:ssot-pack-customer-commerce-semantics`
+- Reservation owner: `extension-pack:customer-commerce-semantics-governance-pack`
 
 ## Domain Focus
 
@@ -64,15 +64,15 @@ Customer Commerce And Product Semantics
 ## Install With uv
 
 ```bash
-uv add ssot-pack-customer-commerce-semantics
-uv add ssot-registry ssot-pack-customer-commerce-semantics
+uv add customer-commerce-semantics-governance-pack
+uv add ssot-registry customer-commerce-semantics-governance-pack
 ```
 
 ## Use With The SSOT Registry CLI
 
 ```bash
-uvx --from ssot-registry ssot pack install ssot-pack-customer-commerce-semantics
-uvx --from ssot-registry ssot pack sync . ssot-pack-customer-commerce-semantics
+uvx --from ssot-registry ssot pack install customer-commerce-semantics-governance-pack
+uvx --from ssot-registry ssot pack sync . customer-commerce-semantics-governance-pack
 uv run ssot adr list .
 uv run ssot spec list .
 ```
@@ -89,5 +89,5 @@ spec_manifest = load_document_manifest("spec")
 ## Resources
 
 - GitHub repository: https://github.com/groupsum/customer-commerce-semantics-governance-pack
-- PyPI package: https://pypi.org/project/ssot-pack-customer-commerce-semantics/
+- PyPI package: https://pypi.org/project/customer-commerce-semantics-governance-pack/
 - SSOT Registry: https://pypi.org/project/ssot-registry/
