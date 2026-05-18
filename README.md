@@ -1,10 +1,13 @@
+<div align="center">
+
 # customer-commerce-semantics-governance-pack
 
 [![PyPI version](https://img.shields.io/pypi/v/customer-commerce-semantics-governance-pack.svg)](https://pypi.org/project/customer-commerce-semantics-governance-pack/)
 [![Python versions](https://img.shields.io/pypi/pyversions/customer-commerce-semantics-governance-pack.svg)](https://pypi.org/project/customer-commerce-semantics-governance-pack/)
 [![License](https://img.shields.io/pypi/l/customer-commerce-semantics-governance-pack.svg)](https://pypi.org/project/customer-commerce-semantics-governance-pack/)
 [![Publish](https://github.com/groupsum/customer-commerce-semantics-governance-pack/actions/workflows/publish.yml/badge.svg)](https://github.com/groupsum/customer-commerce-semantics-governance-pack/actions/workflows/publish.yml)
-[![GitHub package](https://img.shields.io/badge/GitHub-package-24292f)](https://github.com/groupsum/customer-commerce-semantics-governance-pack)
+
+</div>
 
 Installable SSOT governance pack for customer commerce semantics, products, offers, orders, invoices, reviews, ratings, and conversion actions.
 
