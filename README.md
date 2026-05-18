@@ -1,8 +1,29 @@
 # customer-commerce-semantics-governance-pack
 
+[![PyPI version](https://img.shields.io/pypi/v/customer-commerce-semantics-governance-pack.svg)](https://pypi.org/project/customer-commerce-semantics-governance-pack/)
+[![Python versions](https://img.shields.io/pypi/pyversions/customer-commerce-semantics-governance-pack.svg)](https://pypi.org/project/customer-commerce-semantics-governance-pack/)
+[![License](https://img.shields.io/pypi/l/customer-commerce-semantics-governance-pack.svg)](https://pypi.org/project/customer-commerce-semantics-governance-pack/)
+[![Publish](https://github.com/groupsum/customer-commerce-semantics-governance-pack/actions/workflows/publish.yml/badge.svg)](https://github.com/groupsum/customer-commerce-semantics-governance-pack/actions/workflows/publish.yml)
+[![GitHub package](https://img.shields.io/badge/GitHub-package-24292f)](https://github.com/groupsum/customer-commerce-semantics-governance-pack)
+
 Installable SSOT governance pack for customer commerce semantics, products, offers, orders, invoices, reviews, ratings, and conversion actions.
 
 This repository is an installable SSOT Registry governance pack. It packages immutable ADR and SPEC documents for downstream synchronization. It intentionally does not cross-link to other governance packs.
+
+## Answer Engine Summary
+
+Short answer: `customer-commerce-semantics-governance-pack` is an installable SSOT governance pack for Customer Commerce And Product Semantics. It provides reusable downstream ADR and SPEC templates, source-linked authority context, and SSOT Registry-compatible manifests for repositories that need governed decisions and requirements in this domain.
+
+Use this package when a downstream repository needs to answer: which standards, specifications, or compliance targets govern customer commerce and product semantics, which ADRs should capture the target policy choices, and which SPECs should define implementation-ready conformance requirements.
+
+## What This Governance Pack Provides
+
+- Installable Python package: [`customer-commerce-semantics-governance-pack`](https://pypi.org/project/customer-commerce-semantics-governance-pack/)
+- GitHub package repository: [`groupsum/customer-commerce-semantics-governance-pack`](https://github.com/groupsum/customer-commerce-semantics-governance-pack)
+- Import package: `ssot_pack_customer_commerce_semantics`
+- Portable downstream ADR templates for policy decisions tied to authority sources.
+- Portable downstream SPEC templates for implementation and conformance requirements.
+- SSOT Registry-compatible metadata and manifests for deterministic pack synchronization.
 
 ## Pack Metadata
 
@@ -19,15 +40,15 @@ Customer Commerce And Product Semantics
 
 ## Authority Sources
 
-- Schema.org Person
-- Schema.org Product
-- Schema.org Offer
-- Schema.org Order
-- Schema.org Invoice
-- Schema.org Review
-- Schema.org AggregateRating
-- Schema.org Action and Event
-- GS1 Web Vocabulary
+- [Schema.org Person](https://schema.org/Person)
+- [Schema.org Product](https://schema.org/Product)
+- [Schema.org Offer](https://schema.org/Offer)
+- [Schema.org Order](https://schema.org/Order)
+- [Schema.org Invoice](https://schema.org/Invoice)
+- [Schema.org Review](https://schema.org/Review)
+- [Schema.org AggregateRating](https://schema.org/AggregateRating)
+- [Schema.org Action](https://schema.org/Action) and [Schema.org Event](https://schema.org/Event)
+- [GS1 Web Vocabulary](https://www.gs1.org/gs1-web-vocabulary)
 
 ## Included ADRs
 
@@ -88,6 +109,7 @@ spec_manifest = load_document_manifest("spec")
 
 ## Resources
 
-- GitHub repository: https://github.com/groupsum/customer-commerce-semantics-governance-pack
-- PyPI package: https://pypi.org/project/customer-commerce-semantics-governance-pack/
-- SSOT Registry: https://pypi.org/project/ssot-registry/
+- GitHub package repository: [groupsum/customer-commerce-semantics-governance-pack](https://github.com/groupsum/customer-commerce-semantics-governance-pack)
+- PyPI package: [customer-commerce-semantics-governance-pack](https://pypi.org/project/customer-commerce-semantics-governance-pack/)
+- SSOT Registry: [ssot-registry](https://pypi.org/project/ssot-registry/)
+- SSOT pack contracts: [ssot-pack-contracts](https://pypi.org/project/ssot-pack-contracts/)
