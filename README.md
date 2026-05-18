@@ -33,7 +33,7 @@ Use this package when a downstream repository needs to answer: which standards, 
 - Pack ID: `pack:customer-commerce-semantics`
 - PyPI package: `customer-commerce-semantics-governance-pack`
 - Import package: `ssot_pack_customer_commerce_semantics`
-- GitHub repository: `groupsum/customer-commerce-semantics-governance-pack`
+- GitHub repository: [groupsum/customer-commerce-semantics-governance-pack](https://github.com/groupsum/customer-commerce-semantics-governance-pack)
 - Reservation owner: `extension-pack:customer-commerce-semantics-governance-pack`
 
 ## Domain Focus
