@@ -3,9 +3,11 @@
   "number": 2013,
   "slug": "gs1-organization-location-requirements",
   "title": "GS1 Organization Location Requirements",
-  "status": "accepted",
+  "status": "superseded",
   "supersedes": [],
-  "superseded_by": [],
+  "superseded_by": [
+    "spc:gs1-web-vocabulary-organization-location-requirements"
+  ],
   "spec_kind": "normative",
   "adr_ids": [
     "adr:gs1-product-vocabulary-policy"
@@ -17,5 +19,11 @@
     "Represent GS1-governed organization and location semantics separately from generic display names.",
     "Preserve organization and location identifiers where used in product, offer, or trade item records.",
     "Document mappings between GS1 organization/location fields and Schema.org organization/person/location semantics."
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
   ]
 }

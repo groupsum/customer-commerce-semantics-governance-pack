@@ -3,9 +3,12 @@
   "number": 2011,
   "slug": "gs1-product-identifier-requirements",
   "title": "GS1 Product Identifier Requirements",
-  "status": "accepted",
+  "status": "superseded",
   "supersedes": [],
-  "superseded_by": [],
+  "superseded_by": [
+    "spc:gs1-digital-link-identifier-requirements",
+    "spc:gs1-general-specifications-identifier-requirements"
+  ],
   "spec_kind": "normative",
   "adr_ids": [
     "adr:gs1-product-vocabulary-policy",
@@ -18,5 +21,11 @@
     "Represent GS1-governed product identifiers separately from internal product identifiers.",
     "Preserve GTIN and related product identifier semantics where used.",
     "Document mappings between GS1 identifiers, Schema.org identifiers, SKUs, and internal product IDs."
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
   ]
 }

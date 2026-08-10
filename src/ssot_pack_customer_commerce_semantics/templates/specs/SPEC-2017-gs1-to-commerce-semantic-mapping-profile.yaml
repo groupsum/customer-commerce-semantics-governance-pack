@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:gs1-to-commerce-semantic-mapping-profile",
+  "number": 2017,
+  "slug": "gs1-to-commerce-semantic-mapping-profile",
+  "title": "GS1 To Commerce Semantic Mapping Profile",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines mappings from canonical GS1 identifiers and terms into commerce entities.",
+  "body": "## Requirements\n\n- Reference canonical GS1 identifiers without changing their syntax.\n- Declare mapping version and commerce target entity.\n- Preserve GS1 source identifiers for round-trip evidence.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.gs1.org/voc/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "gs1",
+    "commerce",
+    "semantic",
+    "mapping",
+    "profile"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:commerce-semantics-consume-canonical-gs1-identifiers"
+  ]
+}

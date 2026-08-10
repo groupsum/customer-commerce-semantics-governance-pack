@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:commerce-semantics-consume-canonical-gs1-identifiers",
+  "number": 1011,
+  "slug": "commerce-semantics-consume-canonical-gs1-identifiers",
+  "title": "Commerce Semantics Consume Canonical GS1 Identifiers",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Commerce semantics consume canonical GS1 identifiers without redefining GS1 syntax.",
+  "body": "Commerce governance owns product, offer, order, invoice, review, rating, action, and transaction semantics. GS1 governance owns GS1 identifiers and vocabulary syntax.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.gs1.org/standards/gs1-digital-link"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "commerce",
+    "semantics",
+    "consume",
+    "canonical",
+    "gs1",
+    "identifiers"
+  ]
+}

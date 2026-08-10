@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0.dev1
+
+- Removed duplicate GS1 syntax ownership and added a GS1-to-commerce integration profile.
+
 ## 0.1.1.dev1
 
 - Pending release notes.
