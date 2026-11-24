@@ -147,13 +147,15 @@ The script prints `pack:customer-commerce-semantics` from the installed pack met
 Source: [examples/usage.py](https://github.com/groupsum/customer-commerce-semantics-governance-pack/blob/master/examples/usage.py).
 
 ```python
-"""Resolve and read a packaged specification without synchronizing it."""
+"""Find a specification and its downstream path in the installed manifest."""
 
-from ssot_pack_customer_commerce_semantics import load_document_manifest, read_packaged_document_text
+from ssot_pack_customer_commerce_semantics import load_document_manifest
 
-spec = next(row for row in load_document_manifest("spec") if row["id"] == "spc:schema-org-product-requirements")
-document = read_packaged_document_text("spec", spec["filename"])
-assert spec["id"] in document
+specification = next(
+    row for row in load_document_manifest("spec")
+    if row["id"] == "spc:schema-org-product-requirements"
+)
+assert specification["target_path"] == ".ssot/specs/SPEC-2001-schema-org-product-requirements.yaml"
 ```
 <!-- readme-standards:end example.usage -->
 
