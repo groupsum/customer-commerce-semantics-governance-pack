@@ -253,7 +253,7 @@
     "title": "GS1 To Commerce Semantic Mapping Profile",
     "filename": "SPEC-2017-gs1-to-commerce-semantic-mapping-profile.yaml",
     "target_path": ".ssot/specs/SPEC-2017-gs1-to-commerce-semantic-mapping-profile.yaml",
-    "sha256": "07d66888b45a82a53430ef6591d257ed9c6cb8cdadaf21ffb4cdd84ef54f3be1",
+    "sha256": "c9915fcc052982e53cd642c278ecc13a24cb96711cbcf9d75b6fa98822c5b467",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:customer-commerce-semantics-governance-pack",
     "immutable": true,
